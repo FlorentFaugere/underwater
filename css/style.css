@@ -47,6 +47,9 @@ header{
     color: #FFFFFF;
     
 }
+img{
+    max-width: 100%;
+}
 
 .button_header{
     background-color: #109DEA;
@@ -65,4 +68,72 @@ header{
 }
 .img_under_header{
     width: 100%;
+}
+.page-home{
+    color: #FFFFFF;
+}
+.page-home h2{
+    text-decoration: underline;
+    font-size: 48px;
+    text-decoration-color: #EE88E4;
+    margin-bottom: 30px;
+}
+
+.section_dark_blue{
+    background-color: #04234E;
+    display: flex;
+    
+}
+
+.section_dark_blue .width50{
+    width: 50%;
+    padding: 2rem;
+}
+.section_dark_blue p{
+    font-size: 20px;
+}
+
+.section_light_blue{
+    background-color: #109DEA;
+    padding: 1rem 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.section_light_blue .card_container{
+    display: flex;
+    justify-content: space-around;
+}
+.section_light_blue .card_container .card_lieu{
+    border:1px solid;
+    width: 850px;
+    height: 400px;
+    display: flex;
+    
+}
+
+.section_light_blue .card_container .card_lieu .resize_img{
+    width: 398px;
+    height:400px ;
+    object-fit: none;
+    object-position: 50% 30% ;
+}
+.section_light_blue .card_container .card_lieu h3{
+    font-size: 48px;
+}
+.section_light_blue .card_container .card_lieu p{
+    font-size: 20px;
+}
+.section_light_blue .card_container .button_card{
+    font-size: 32px;
+    background-color: #04234E;
+    padding: 1rem 1.5rem;
+    color: #FFFFFF;
+    align-self: flex-end;
+}
+.apli_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    width: 452px;
 }
