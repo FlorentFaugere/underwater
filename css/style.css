@@ -42,5 +42,27 @@ body {
 /* ----------- CODE BELOW -----------  */
 header{
     display: flex;
+    justify-content: space-between;
+    background-color: #109DEA;
+    color: #FFFFFF;
     
+}
+
+.button_header{
+    background-color: #109DEA;
+    border: none;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-size: 32px;
+}
+.button_header:hover{
+    background-color: #EE88E4;
+}
+.font_h1{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 1rem;
+}
+.img_under_header{
+    width: 100%;
 }
