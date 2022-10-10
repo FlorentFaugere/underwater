@@ -57,6 +57,7 @@ img{
     color: #FFFFFF;
     padding: 1rem;
     font-size: 32px;
+    transition-duration:  0.3s;
 }
 .button_header:hover{
     background-color: #EE88E4;
@@ -96,7 +97,8 @@ img{
 .section_light_blue{
     background-color: #109DEA;
     padding: 1rem 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
 }
 
 .section_light_blue .card_container{
@@ -136,4 +138,54 @@ img{
     justify-content: space-around;
     padding: 2rem;
     width: 452px;
+}
+
+.contact_form{
+    display: flex;
+    justify-content: center; 
+    align-content: center; 
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+.contact_form input{
+    background-color: #109DEA;
+    height: 3rem;
+}
+.contact_form textarea{
+    background-color: #109DEA;
+    height: 8rem;
+}
+.contact_form label{
+    padding-top: 10px;
+    padding-bottom: 3px;
+
+}
+.contact_form .form_button{
+    height: 3rem;
+    width: 15%;
+    font-size: 1.2rem;
+    background-color: #EE88E4;
+    color: #FFFFFF;
+    align-self: center;
+}
+.section_dark_blue_contact{
+    background-color: #04234E;   
+}
+
+.column_form{
+    display:flex ;
+    flex-direction: column;
+    width: 48%;
+}
+.row_form{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+::placeholder{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-style: italic;
+
 }
